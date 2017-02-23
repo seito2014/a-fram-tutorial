@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+</head>
+<body>
+
+<a-scene>
+  <a-assets>
+    <a-asset-item id="model-obj" src="./assets/obj/city/city.obj"></a-asset-item>
+    <a-asset-item id="model-mtl" src="./assets/obj/city/city.mtl"></a-asset-item>
+  </a-assets>
+
+  <a-obj-model src="#model-obj" mtl="#model-mtl" position="0 -100 0"></a-obj-model>
+  <a-sky color="#ccf5fc"></a-sky>
+
+</a-scene>
+
+</body>
+</html>
